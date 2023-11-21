@@ -27,7 +27,7 @@ public class Program {
 
             System.out.println(account);
             System.out.println();
-            System.out.print("Enter amount for withdraw: ");
+            System.out.print ("Enter amount for withdraw: ");
             double amount = sc.nextDouble();
 
             account.withdraw(amount);
